@@ -8,8 +8,11 @@
 </head>
 <body>
   <header>
-    <h1>TO DO </h1>
-  </header>
+  <div class="header-content">
+    <h1>TO DO</h1>
+    <button id="themeToggle">⏾</button>
+  </div>
+</header>
 
   <div id="container">
 
@@ -21,11 +24,13 @@
     <button id="allBtn">All</button> 
     <button id="pendingBtn">Pending</button> 
     <button id="completedBtn">Completed</button> 
-    <button id="clearBtn">Clear All</button>
     </div>
 
     <ul id="taskLists"></ul>
+
+    <button id="clearBtn">Clear All</button>
   </div>
+  
 
   <script src="script.js"></script>
 </body>

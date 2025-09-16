@@ -1,35 +1,37 @@
-# 📝 TO-DO LIST WEB APP
+# ✅ TO-DO LIST WEB APP
 
-A sleek, responsive to-do list application built with HTML, CSS, and JavaScript. Designed with a dark gradient theme and smooth animations, this app lets users manage tasks with ease—add, complete, filter, and delete—all in one elegant interface.
+A responsive, theme-switching to-do list application built with HTML, CSS, and JavaScript. Designed with a sleek gradient interface, intuitive task controls, and a light/dark mode toggle, this app helps users manage tasks with style and clarity—whether on desktop or mobile.
 
 ---
 
 ## 🌟 Features
 
-- ✅ **Add Tasks**: Type and add tasks instantly.
-- ✔️ **Mark as Completed**: Toggle tasks as done with a single click.
-- ❌ **Delete Tasks**: Remove individual tasks with a delete button.
-- 🔍 **Filter Tasks**: View All, Pending, or Completed tasks using filter buttons.
-- 🧹 **Clear All**: Wipe the entire list with one click.
-- 📱 **Mobile-Friendly**: Responsive layout adapts to smaller screens.
-- ✨ **Animations**: Smooth fade-in for new tasks and hover effects for buttons.
+- ✍️ **Add Tasks**: Type and add tasks instantly
+- ✔️ **Mark as Completed**: Toggle tasks as done with a single click
+- ❌ **Delete Tasks**: Remove individual tasks with a delete button
+- 🔍 **Filter Tasks**: View All, Pending, or Completed tasks
+- 🧹 **Clear All**: Wipe the entire list with one click
+- 🌗 **Light/Dark Mode Toggle**: Switch themes with a button in the header
+- 📱 **Mobile-Friendly Design**: Optimized layout and colors for smaller screens
+- ✨ **Animations**: Smooth fade-in for tasks and hover effects for buttons
 
 ---
 
-## 📸 UI Highlights
+## 🎨 Design Highlights
 
-- **Dark gradient background** with glowing header text
-- **Minimalist layout** with intuitive controls
-- **Responsive design** using media queries
-- **Subtle animations** for task entry and button interactions
+- **Gradient header** with a glowing title and theme toggle
+- **Dark mode** for focused desktop use
+- **Light mode** for readability on mobile
+- **Rounded buttons** and clean spacing for intuitive UX
+- **Responsive layout** using flexbox and media queries
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone or download the repository.
-2. Open `index.html` in any modern browser.
-3. Start adding tasks and managing your list!
+1. Clone or download the repository
+2. Open `index.html` in any modern browser
+3. Start adding tasks and toggling themes!
 
 ---
 
@@ -37,12 +39,18 @@ A sleek, responsive to-do list application built with HTML, CSS, and JavaScript.
 
 - **HTML5** – Structure
 - **CSS3** – Styling, layout, animations, responsiveness
-- **JavaScript** – Task logic, filtering, DOM manipulation
+- **JavaScript** – Task logic, filtering, theme switching
 
 ---
 
-## 🙌 Author
-**Fayiza**  
+## 📁 File Structure
+├── index.html ├── style.css ├── script.js
+
+---
+
+## 🙋 Author
+
+**Fayiza Farooq**  
 A student passionate about clean design and interactive web apps, currently learning HTML, CSS, and JavaScript to build real-world projects.
 
 ---

@@ -1,11 +1,11 @@
-const taskInput=document.getElementById("taskInput")
-const addBtn=document.getElementById("addBtn")
-const clearBtn=document.getElementById("clearBtn")
-const allBtn=document.getElementById("allBtn")
-const pendingBtn=document.getElementById("pendingBtn")
-const completedBtn=document.getElementById("completedBtn")
-const taskLists=document.getElementById("taskLists")
-
+const taskInput=document.getElementById("taskInput");
+const addBtn=document.getElementById("addBtn");
+const clearBtn=document.getElementById("clearBtn");
+const allBtn=document.getElementById("allBtn");
+const pendingBtn=document.getElementById("pendingBtn");
+const completedBtn=document.getElementById("completedBtn");
+const taskLists=document.getElementById("taskLists");
+const theme=document.getElementById("themeToggle");
 
 function addTask() {
   addBtn.addEventListener("click", ()=>{
@@ -75,11 +75,15 @@ function filterButtons() {
       }
     })
   })
-  
+
   clearBtn.addEventListener("click",()=>{
     taskLists.innerHTML = "";
   })
 }
-
+theme.addEventListener("click", ()=>{
+  document.body.classList.toggle("light-mode");
+  document.body.classList.toggle("dark-mode");
+  
+})
 addTask();
 filterButtons();

@@ -116,9 +116,14 @@ ul li{
   #container{
     box-shadow: none;
   }
-  #taskInput,
-  #addBtn {
+  #taskInput{
     font-size: 1.3em;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  #addBtn{
+    font-size: 1em;
+    width: 95%;
   }
 
   #allBtn,
@@ -127,6 +132,7 @@ ul li{
   #clearBtn {
     font-size: 0.8em;
     padding: 7.5px;
+    margin:0 10px;
   }
 
   ul li {

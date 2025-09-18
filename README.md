@@ -6,11 +6,11 @@ A responsive, theme-switching to-do list application built with HTML, CSS, and J
 
 ## 🌟 Features
 
-- ✍️ **Add Tasks**: Type and add tasks instantly
+- ✍️ **Add Tasks**: Type and add tasks instantly with input validation
 - ✔️ **Mark as Completed**: Toggle tasks as done with a single click
 - ❌ **Delete Tasks**: Remove individual tasks with a delete button
 - 🔍 **Filter Tasks**: View All, Pending, or Completed tasks
-- 🧹 **Clear All**: Wipe the entire list with one click
+- 🧹 **Clear All**: Custom confirmation modal prevents accidental deletion
 - 🌗 **Light/Dark Mode Toggle**: Switch themes with a button in the header
 - 📱 **Mobile-Friendly Design**: Optimized layout and colors for smaller screens
 - ✨ **Animations**: Smooth fade-in for tasks and hover effects for buttons

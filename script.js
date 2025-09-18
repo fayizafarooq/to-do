@@ -5,15 +5,23 @@ const allBtn=document.getElementById("allBtn");
 const pendingBtn=document.getElementById("pendingBtn");
 const completedBtn=document.getElementById("completedBtn");
 const taskLists=document.getElementById("taskLists");
+const errorDisplay=document.getElementById("errorDisplay");
 const theme=document.getElementById("themeToggle");
+const confirmModal = document.getElementById("confirmModal");
+const confirmYes = document.getElementById("confirmYes");
+const confirmNo = document.getElementById("confirmNo");
+
 
 function addTask() {
   addBtn.addEventListener("click", ()=>{
     const lists= document.createElement("li")
 
+    if (taskInput.value.trim() === "") {
+      errorDisplay.textContent = "Please enter a task!";
+      return;}
     const taskText = document.createElement("span");
-    taskText.textContent=taskInput.value;
-    taskText.classList.add("task-text");
+    taskText.textContent = taskInput.value;taskText.classList.add("task-text");
+    errorDisplay.textContent = "";
 
     //create done button
     const taskDone=document.createElement("span");
@@ -75,10 +83,19 @@ function filterButtons() {
       }
     })
   })
+clearBtn.addEventListener("click", () => {
+  confirmModal.style.display = "flex";
+});
 
-  clearBtn.addEventListener("click",()=>{
-    taskLists.innerHTML = "";
-  })
+confirmYes.addEventListener("click", () => {
+  taskLists.innerHTML = "";
+  confirmModal.style.display = "none";
+});
+
+confirmNo.addEventListener("click", () => {
+  confirmModal.style.display = "none";
+});
+
 }
 theme.addEventListener("click", ()=>{
   document.body.classList.toggle("light-mode");
